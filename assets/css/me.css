@@ -114,7 +114,7 @@ body.page-template-page-fullsingle-me {
   background-size: cover; }
   body.page-template-page-fullsingle-me p {
     margin-bottom: 28px;
-    color: #999999; }
+    color: #fff; }
     @media (max-width: 800px) {
       body.page-template-page-fullsingle-me p {
         font-size: 32px;
@@ -167,6 +167,7 @@ body.page-template-page-fullsingle-me {
     height: auto; }
 
 .bio {
+  font-family: Gotham Light;
   -webkit-box-flex: 1;
       -ms-flex: 1 1 auto;
           flex: 1 1 auto;
