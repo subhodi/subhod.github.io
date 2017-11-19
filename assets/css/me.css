@@ -168,6 +168,7 @@ body.page-template-page-fullsingle-me {
 
 .bio {
   font-family: Gotham Light;
+  background-color:rgba(0,0,0,0.5);
   -webkit-box-flex: 1;
       -ms-flex: 1 1 auto;
           flex: 1 1 auto;
