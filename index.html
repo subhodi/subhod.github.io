@@ -108,7 +108,6 @@
 
 	function doSlideshow() {
 		if (nextimage >= images.length) { nextimage = 0; }
-		console.log("callled");
 		$('.page-template-page-fullsingle-me')
 			.css('background-image', 'url("' + images[nextimage++] + '")')
 			.fadeIn(500, function () {
