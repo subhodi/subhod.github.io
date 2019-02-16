@@ -1,0 +1,15 @@
+<nav class="navbar transparent navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#home">Profile</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="#home" [routerLink]="['/home']" [routerLinkActive]="['active']">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link" href="#about"  [routerLink]="['/about']" [routerLinkActive]="['active']">About</a>
+        <a class="nav-item nav-link" href="#contact"  [routerLink]="['/contact']" [routerLinkActive]="['active']">Contact</a>
+        <a class="nav-item nav-link" href="#gallery"  [routerLink]="['/gallery']" [routerLinkActive]="['active']">Gallery</a>
+      </div>
+    </div>
+  </nav>
+<router-outlet></router-outlet>
